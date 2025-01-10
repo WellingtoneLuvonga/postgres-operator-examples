@@ -1356,6 +1356,7 @@ spec:
                           annotations:
                             additionalProperties:
                               type: string
+                              maxLength: 4096  # Limit individual annotation size to 4 KB Wellingtone
                             type: object
                           labels:
                             additionalProperties:
